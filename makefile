@@ -1,4 +1,4 @@
 gacp:
 	git add .
 	git commit -m "$m"
-	git push -u origin testing-makefile
+	git push -u origin $b
