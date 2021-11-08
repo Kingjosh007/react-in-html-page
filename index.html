@@ -10,6 +10,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
 </head>
 <body>
+
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const element = <h1>Hello from React</h1>;
+        // console.log(element);
+
+        ReactDOM.render(element, document.getElementById("root"));
+    </script>
     
 </body>
 </html>
